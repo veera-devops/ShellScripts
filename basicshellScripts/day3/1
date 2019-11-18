@@ -1,0 +1,8 @@
+#!/bin/bash
+
+$a
+$b
+
+c=`expr $a + $b`
+echo "addition is $c"
+
