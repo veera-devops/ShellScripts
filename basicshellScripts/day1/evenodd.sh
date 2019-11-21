@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "enter a number"
-read number
-
+#read number
+number=$1
 mod=`expr $number % 2`
 
 
