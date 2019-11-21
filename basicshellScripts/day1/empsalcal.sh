@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Enter basic salary"
-read basic
+#read basic
+basic=$1
 dp=`expr $basic \* 50 / 100`
 da=`expr $dp + $basic \* 35 / 100`
 hra=`expr $dp + $basic \* 8 / 100`
