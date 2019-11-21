@@ -5,12 +5,13 @@
 #echo "enter 2 for sub"
 #echo "enter 3 for mul"
 #read choice
+c=$1
 #echo "enter a value"
 #read a
-a=$1
+a=$2
 #echo "enter b vallue"
 #read b
-b=$2
+b=$3
 
 case $choice in
 	1)
