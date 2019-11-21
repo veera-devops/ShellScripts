@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo "enter 1st number"
-read fn
+$read fn
 echo "enter 2nd number"
-read sn
+$read sn
 
-a=$fn
-b=$sn
+a=$1
+b=$2
 
 if [ $a -gt $b ]
 then
