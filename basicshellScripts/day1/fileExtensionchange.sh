@@ -1,6 +1,6 @@
 #!/bin/bash
 # Rename all *.sh to *.exe
-for f in *.sh;
+for f in *.exe;
 do 
-    mv -- "$f" "${f%.sh}.exe"
+    mv -- "$f" "${f%.exe}.sh"
 done
