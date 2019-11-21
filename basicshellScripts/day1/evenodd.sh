@@ -6,7 +6,7 @@ mod=`expr $number % 2`
 
 
 
-if [ $mod -e 0 ]
+if [ $mod == 0 ]
 then
 	echo " even number"
 else
