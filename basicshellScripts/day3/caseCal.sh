@@ -1,15 +1,16 @@
 #!/bin/bash
-echo "enter your choice"
+#echo "enter your choice"
 #read choice
-echo "enter 1 for sum"
-echo "enter 2 for sub"
-echo "enter 3 for mul"
-read choice
-echo "enter a value"
-read a
-echo "enter b vallue"
-read b
-
+#echo "enter 1 for sum"
+#echo "enter 2 for sub"
+#echo "enter 3 for mul"
+#read choice
+#echo "enter a value"
+#read a
+a=$1
+#echo "enter b vallue"
+#read b
+b=$2
 
 case $choice in
 	1)
