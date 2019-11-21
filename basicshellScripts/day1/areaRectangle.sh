@@ -6,3 +6,5 @@ width=$2
 
 area=`expr $length \* $width`
 echo "area is $area"
+
+ls
