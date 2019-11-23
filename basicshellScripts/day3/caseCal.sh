@@ -5,7 +5,7 @@
 #echo "enter 2 for sub"
 #echo "enter 3 for mul"
 #read choice
-c=$1
+choice=$1
 #echo "enter a value"
 #read a
 a=$2
