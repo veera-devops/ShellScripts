@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echo "enter path"
+#echo "enter path"
 
-read path
+#read path
+path=$1
 
 if [ -f $path ]
 then
